@@ -1,6 +1,8 @@
 
 # Getting started with Prometheus and Grafana
 
+<img align="right" width="30%" src="images/prom+graf.png"></img> <a name=id1></a>
+
 Este repositorio proporciona un ejemplo detallado de cómo comenzar con Prometheus y Grafana para recopilar y visualizar datos utilizando la API de OpenWeather. El objetivo es mostrar cómo configurar un entorno básico y realizar la recopilación automática de datos meteorológicos de diferentes ciudades utilizando Python y Prometheus, y luego visualizar estos datos en un dashboard personalizado utilizando Grafana.
 
 # Indice
