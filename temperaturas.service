@@ -1,0 +1,14 @@
+[Unit]
+Description=Collect data from the API OpenWeather
+
+
+[Service]
+User=root
+ExecStart=/home/Prometheus/temperaturas/run.sh
+KillMode=mixed
+Restart=always
+
+
+[Install]
+WantedBy=multi-user.target
+

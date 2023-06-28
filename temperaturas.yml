@@ -1,0 +1,23 @@
+Temperature:
+  - City: Madrid
+    Country: es
+  - City: Paris
+    Country: us
+  - City: Mexico
+    Country: mx
+
+Configuration:
+
+  Web:
+    Period: 20
+    Host: 127.0.0.1
+    Port: 9897
+    WRoute: /metrics
+    APIKey: aaaaaaaaaaaaaaaa0000000000000000
+
+  Logging:
+    File_name: 'app.log'
+    Max_size: 11000000
+    Backup_count: 3
+    
+
